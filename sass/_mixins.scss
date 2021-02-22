@@ -1,0 +1,17 @@
+@mixin section {
+  border-radius: 10px;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@mixin title {
+  color: $b;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+@mixin mb {
+  margin-bottom: 10px;
+}
