@@ -50,4 +50,22 @@
       font-size: 20px;
     }
   }
+  .pluses {
+    &__item {
+      margin-bottom: 15px;
+      padding: 0;
+    }
+    &__round {
+      width: 100px;
+      height: 100px;
+    }
+    &__text {
+      font-size: 21px;
+    }
+  }
+  .screenshots {
+    &__descr {
+      font-size: 24px;
+    }
+  }
 }

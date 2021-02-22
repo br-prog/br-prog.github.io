@@ -41,6 +41,25 @@
   }
 }
 
+.btn {
+  margin-top: 20px;
+  padding: 10px;
+  width: 360px;
+  height: 100px;
+  background-color: #74B4E0;
+  border-radius: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 28px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  box-shadow: 0px 0px 10px 2px #4989B5;
+  &:hover {
+    color: #000;
+  }
+}
+
 .title {
   @include title
 }
@@ -58,12 +77,56 @@
   background-color: #E6FFFF;
   @include section;
   @include mb;
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  &__round {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 140px;
+    background-color: $main-color;
+    border-radius: 50%;
+    img {
+      width: 65%;
+      height: 65%;
+    }
+  }
+  &__text {
+    font-size: 28px;
+    text-align: center;
+    max-width: 370px;
+    word-wrap: break-word;
+  }
 }
 
 .screenshots {
   background-color: #D4F6CF;
   @include section;
   @include mb;
+  &__item {
+    margin-bottom: 25px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &__descr{
+    text-align: center;
+    font-size: 32px;
+  }
+  &__img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+  }
 }
 
 .app {
@@ -71,6 +134,7 @@
   @include section;
   @include mb;
 }
+
 .up {
   width: 60px;
   height: 60px;
