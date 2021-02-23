@@ -1,9 +1,22 @@
 @import 'variables';
-@import 'fonts';
 @import 'mixins';
 
+@font-face {
+  font-family: "Сentury Gothic";
+  src: url("../fonts/СenturyGothic-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Сentury Gothic";
+  src: url("../fonts/СenturyGothic-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
 * {
-  font-family: "CenturyGothic";
+  font-family: "Century Gothic";
 }
 
 .header {
