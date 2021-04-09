@@ -132,12 +132,15 @@
   &__descr{
     text-align: center;
     font-size: 32px;
+    font-weight: bold;
   }
   &__img {
     display: block;
     margin: 0 auto;
     width: 50%;
     height: 50%;
+    border-radius: 15px;
+    border: 5px solid #4D8CC6;
   }
 }
 
